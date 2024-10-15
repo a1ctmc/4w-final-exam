@@ -878,7 +878,7 @@
         const questionImage = document.getElementById('questionImage');
         const hintText = document.getElementById('hintText');
         
-        questionText.textContent = `Q${index + 1}. ${questions[index].text}`; // Add question number
+        questionText.textContent = `Question No ${index + 1}: ${questions[index].text}`; // Add question number
         tagalogText.textContent = questions[index].tagalog;
         questionImage.src = questions[index].image;
         questionImage.style.display = questions[index].image ? "block" : "none"; // Show image if exists
